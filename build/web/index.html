@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+        <link type="text/css" rel="stylesheet" href="css/jquery.dataTables.min.css">
+        <link type="text/css" rel="stylesheet" href="css/sweetalert2.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="row">
+                <form role="form" id="form-register">
+                    <h2>Register</h2>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" name="nombre" id="nombre" class="form-control input-lg" placeholder="Name">
+                            </div>
+                        </div> 
+
+                        <div class="col-lg-6">
+                            <div class="form-group">
+                                <input type="text" name="autor" id="autor" class="form-control input-lg" placeholder="Autor">
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-lg">Registrar</button>
+                </form>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="col-lg-12">
+                <table id="tb-libros" class="table">
+                    <thead>
+                        <tr>
+                            <th>Clave</th>
+                            <th>Nombre</th>
+                            <th>Autor</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/sweetalert2.all.min.js"></script>
+        <script type="text/javascript" src="js/libros.js"></script>
+
+    </body>
+</html>
